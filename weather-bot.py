@@ -6,9 +6,7 @@ subscribers = set()  # <--(global storage for chat IDs)
 # CONFIG
 # =========================
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"

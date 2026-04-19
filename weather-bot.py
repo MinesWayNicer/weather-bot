@@ -243,4 +243,4 @@ while True:
 
             if location:
                 weather = get_weather(location["lat"], location["lon"])
-                send_message(chat_id, "Hourly update:\n" + format_weather(location, weather))
+                send_message(chat_id, "Hourly update:\n" + format_weather(location, weather))# deploy fix
